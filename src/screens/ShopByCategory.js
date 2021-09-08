@@ -1,8 +1,7 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import {FlatList} from 'react-native-gesture-handler';
+import {View, Text, FlatList} from 'react-native';
 import ProductButton from '../components/ProductButton';
-import {categories, jewelleries} from '../data/dataArrays';
+import {jewelleries} from '../data/dataArrays';
 
 const ShopByCategory = props => {
   let {category, name} = props.route.params;
